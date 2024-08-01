@@ -1,0 +1,19 @@
+{
+<<<<<<< HEAD
+  "version":2,
+  "builds": [
+    { "src": "*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+  ]
+}
+=======
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+>>>>>>> 58e6a186679b84b658f1e9a54567fb6d64acc343
